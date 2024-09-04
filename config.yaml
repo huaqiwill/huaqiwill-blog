@@ -1,6 +1,6 @@
-baseurl: https://example.com
+baseurl: https://huaqiwill.github.io/test3
 languageCode: zh-cn
-theme: hugo-theme-stack
+theme: hugo-theme-stack 
 paginate: 3
 title: 彭存福的个人博客
 copyright: 彭存福
