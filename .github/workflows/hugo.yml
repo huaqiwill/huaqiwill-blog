@@ -18,10 +18,6 @@ jobs:
           hugo-version: 'latest'
           extended: true
       
-      - name: Fetch Theme
-        run: |
-          git clone https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
-
       - name: Build Hugo Site
         run: hugo --minify
 
