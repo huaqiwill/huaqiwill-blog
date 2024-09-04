@@ -3,7 +3,7 @@ name: Deploy Hugo Site
 on:
   push:
     branches:
-      - main
+      - main # 触发部署的分支，可以根据实际情况修改
 
 jobs:
   deploy:
@@ -12,30 +12,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Hugo (Extension Version)
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
       
-      - name: Fetch Theme
-        run: |
-          git clone https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
-
       - name: Build Hugo Site
-        run: hugo --minify --themesDir=themes
-
-      - name: Cache Hugo and Theme
-        uses: actions/cache@v3
-        with:
-          path: |
-            /usr/local/bin/hugo
-            themes/hugo-theme-stack
-          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir:./public
