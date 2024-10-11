@@ -27,6 +27,11 @@ links:
     website: https://github.com/Iden9
     image: https://avatars.githubusercontent.com/u/102173622?v=4
 
+  - title: Exnadio's Blog
+    description: 幸福往往是摸得透彻，而敬业的心却常常隐藏
+    website: https://oxidane-uni.github.io/
+    image: https://oxidane-uni.github.io/img/avatar1_hu98db67…9afacaa94de45dcf24e0_95532_300x0_resize_box_3.png
+    
 menu:
     main: 
         weight: -50
