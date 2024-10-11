@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>ThinkPHP on 华琪威尔的博客</title>
+        <title>ThinkPHP on Huaqiwill&#39;s Blog</title>
         <link>https://huaqiwill.github.io/huaqiwill-blog/categories/thinkphp/</link>
-        <description>Recent content in ThinkPHP on 华琪威尔的博客</description>
+        <description>Recent content in ThinkPHP on Huaqiwill&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>huaqiwill</copyright>
+        <copyright>Huaqiwill</copyright>
         <lastBuildDate>Tue, 03 Sep 2024 22:16:31 +0800</lastBuildDate><atom:link href="https://huaqiwill.github.io/huaqiwill-blog/categories/thinkphp/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ThinkPHP基础</title>
         <link>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp01/</link>

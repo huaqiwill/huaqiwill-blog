@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Pages on 华琪威尔的博客</title>
+        <title>Pages on Huaqiwill&#39;s Blog</title>
         <link>https://huaqiwill.github.io/huaqiwill-blog/page/</link>
-        <description>Recent content in Pages on 华琪威尔的博客</description>
+        <description>Recent content in Pages on Huaqiwill&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>huaqiwill</copyright>
+        <copyright>Huaqiwill</copyright>
         <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://huaqiwill.github.io/huaqiwill-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://huaqiwill.github.io/huaqiwill-blog/archives/</link>
@@ -22,7 +22,30 @@
         
         <guid>https://huaqiwill.github.io/huaqiwill-blog/about/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.这是关于页面&lt;/p&gt;
-</description>
+&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;PHP开发工程师&lt;/li&gt;
+&lt;li&gt;Python开发工程师&lt;/li&gt;
+&lt;li&gt;C#开发工程师&lt;/li&gt;
+&lt;li&gt;C &amp;amp; C++开发工程师&lt;/li&gt;
+&lt;li&gt;Java开发工程师&lt;/li&gt;
+&lt;li&gt;网络安全、大数据、云计算专家&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;社交帐号&#34;&gt;社交帐号
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CSDN：https://blog.csdn.net/HuaQi666&lt;/li&gt;
+&lt;li&gt;哔哩哔哩：https://space.bilibili.com/531029113&lt;/li&gt;
+&lt;li&gt;小红书：&lt;/li&gt;
+&lt;li&gt;微博：&lt;/li&gt;
+&lt;li&gt;邮箱：&lt;/li&gt;
+&lt;li&gt;Github：&lt;/li&gt;
+&lt;li&gt;Gitee：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;项目经验&#34;&gt;项目经验
+&lt;/h2&gt;&lt;h3 id=&#34;ai多人配音网站&#34;&gt;AI多人配音网站
+&lt;/h3&gt;&lt;h3 id=&#34;程序盒子&#34;&gt;程序盒子
+&lt;/h3&gt;&lt;h2 id=&#34;个人简历&#34;&gt;个人简历
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>搜索</title>
