@@ -1,3 +1,326 @@
-This is an example site used for solely for testing purposes. **It is not meant to be used as a template for your site**. 
+# Huaqiwill的个人博客 - 专注分享前沿技术文章
 
-To create a new site, please use the starter template: [CaiJimmy/hugo-theme-stack-starter](https://github.com/CaiJimmy/hugo-theme-stack-starter/)
+# 系列准备
+
+使用Hugo + Markdown开发一款个人博客，使用Github托管。为了国内也能正常访问，可以自配服务器。
+
+## 平台准备
+
+CSDN、掘金、知乎同步更新
+
+Github、Gitee、开源中国、腾讯云社区、华为云社区、阿里云社区
+
+
+
+
+
+## 系列内容准备
+
+
+
+### 1、PHP站点快速开发专栏（第一阶段）于2024年
+
+**时间：**在2024年底前完成
+
+**技术：**PHP、Web、JavaScript、Layui、Bootstrap、jQuery、MySQL、Redis、HTML、CSS、动画库、字体图标、
+
+**通用技术：**微信支付、支付宝支付、聚合支付、银联支付、微信公众号、
+
+**适用范围：**网站开发、H5、服务端开发
+
+**框架：**ThinkPHP
+
+PHP网站快速开发
+
+系列准备
+
+* PHP从如何到精通
+* ThinkPHP框架
+* 利用ThinkPHP第三方框架进行快速开发
+
+
+
+
+
+### 2、C#.NET专栏（第一阶段）于2024年
+
+**时间：**在2024年底前完成
+
+**技术：**C#、.NET、Winform、WPF、WinAPI、
+
+**适用范围：**主要用于Windows桌面应用开发、小工具开发
+
+C#.NET桌面开发专栏
+
+* Winform
+* WPF
+
+
+
+### 3、uniapp专栏（第一阶段）于2024年
+
+**时间：**在2024年底前完成
+
+**技术：**Vue、
+
+**适用范围：**移动应用开发、Android、iOS
+
+技术点
+
+* uniapp基础
+* uniapp广告集成
+* 
+
+
+
+### 4、自动化专栏（第一阶段）于2024年
+
+自动化专栏
+
+* 
+
+
+
+
+
+### 5、插件开发专栏
+
+* vscode插件开发
+* jetbrains插件开发
+* vs插件开发
+* 浏览器插件开发
+* 油猴脚本开发
+* notepad++插件开发
+* 
+
+
+
+
+
+
+
+
+
+### 数据库专栏
+
+* MySQL数据库专栏
+* MongoDB数据库专栏
+* Redis数据库专栏
+
+
+
+
+
+
+
+
+
+### 网络爬虫专栏
+
+网络爬虫专栏
+
+* 网络爬虫基础
+* Web逆向基础
+* 
+
+
+
+
+
+
+
+### 数据分析专栏
+
+数据分析专栏
+
+* 数据分析与可视化
+
+
+
+
+
+### C语言专栏
+
+* C语言基础
+* C语言项目
+* 
+
+
+
+### C++专栏
+
+* C++基础
+* C++编程开发
+* C++ STL
+* C++ Boost C++
+* C++ MFC
+* C++ ...
+
+
+
+### Java基础专栏
+
+
+
+### Java高级专栏
+
+
+
+
+
+### Vue专栏
+
+
+
+### React专栏
+
+
+
+### Electron专栏
+
+
+
+
+
+
+
+### SpringBoot专栏
+
+
+
+
+
+
+
+### Web基础专栏
+
+主要讲HTML、CSS、JavaScript
+
+库：Bootstrap、jQuery
+
+
+
+### Web高级专栏
+
+* 主要讲Web应用
+* 高级3D、WebGL、GIS等高级内容
+* 高级动画、
+* 
+
+
+
+### Web应用专栏
+
+* Web行业应用开发
+* Web响应式设计基础
+* 
+
+
+
+
+
+### 数据结构和算法专栏
+
+（提供Java版本的数据结构和算法专栏、以及C & C++版本）
+
+* 算法的理论基础
+
+* 数据结构
+* 基础算法
+* 数论算法
+* 
+
+
+
+
+
+### 设计模式专栏
+
+（提供Java版本的设计模式专栏）
+
+* 23种设计模式
+* 
+
+
+
+
+
+### 大数据分析专栏
+
+* 大数据基础
+* 
+
+### 云计算专栏
+
+
+
+
+
+### 机器学习专栏
+
+
+
+
+
+
+
+### 逆向工程专栏
+
+* 
+
+
+
+### 鸿蒙开发专栏
+
+* 
+
+
+
+### Linux基础使用专栏
+
+
+
+
+
+### Flutter移动应用快速开发专栏
+
+* Flutter快速开发Android、iOS、HarmonyOS等平台的应用。
+* Flutter兼容开发Windows、Linux、Web等平台的应用。
+* 
+
+
+
+
+
+
+
+### 开发者工具专栏
+
+高效开发、AI工具、优秀的工具
+
+提供工具的破解方法。
+
+
+
+
+
+
+
+
+
+## 周边
+
+音乐：可以添加上自己喜欢的音乐名称、歌词、提供播放源
+
+生活：可以分享自己的编程生活，
+
+编程接单：
+
+* 任务接单、派单
+
+
+
+
+
+
+
