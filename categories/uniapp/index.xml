@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>uniapp on 华琪威尔的博客</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/uniapp/</link>
+        <description>Recent content in uniapp on 华琪威尔的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>huaqiwill</copyright>
+        <lastBuildDate>Tue, 03 Sep 2024 22:16:31 +0800</lastBuildDate><atom:link href="https://huaqiwill.github.io/huaqiwill-blog/categories/uniapp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>uniapp</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/uniapp02/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/uniapp02/</guid>
+        <description>&lt;h1 id=&#34;php图像处理&#34;&gt;PHP图像处理
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>uniapp1</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/uniapp01/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/uniapp01/</guid>
+        <description>&lt;h1 id=&#34;php图像处理&#34;&gt;PHP图像处理
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

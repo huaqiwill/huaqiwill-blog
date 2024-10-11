@@ -11,16 +11,67 @@
     <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/</loc>
     <lastmod>2024-09-03T22:16:31+08:00</lastmod>
   </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/php/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/php01/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/p/test-text/</loc>
     <lastmod>2024-09-03T22:16:31+08:00</lastmod>
   </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/php02/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/php03/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/post/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/thinkphp/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp01/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp02/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/uniapp/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/uniapp02/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/uniapp01/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/vue/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/vue01/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/vue02/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/wechat01/</loc>
+    <lastmod>2024-09-03T22:16:31+08:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/wechat02/</loc>
     <lastmod>2024-09-03T22:16:31+08:00</lastmod>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/page/</loc>
     <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/archives/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/test-chinese/</loc>
     <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/p/test-chinese/</loc>
@@ -33,6 +84,9 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/p/markdown-syntax-guide/</loc>
@@ -53,6 +107,9 @@
     <loc>https://huaqiwill.github.io/huaqiwill-blog/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -68,11 +125,19 @@
     <loc>https://huaqiwill.github.io/huaqiwill-blog/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/p/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://huaqiwill.github.io/huaqiwill-blog/categories/c%23/</loc>
   </url><url>
     <loc>https://huaqiwill.github.io/huaqiwill-blog/about/</loc>
   </url><url>

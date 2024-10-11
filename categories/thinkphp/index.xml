@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ThinkPHP on 华琪威尔的博客</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/thinkphp/</link>
+        <description>Recent content in ThinkPHP on 华琪威尔的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>huaqiwill</copyright>
+        <lastBuildDate>Tue, 03 Sep 2024 22:16:31 +0800</lastBuildDate><atom:link href="https://huaqiwill.github.io/huaqiwill-blog/categories/thinkphp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ThinkPHP基础</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp01/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp01/</guid>
+        <description>&lt;h1 id=&#34;thinkphp基础&#34;&gt;ThinkPHP基础
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>ThinkPHP中级</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp02/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp02/</guid>
+        <description>&lt;h1 id=&#34;thinkphp中级&#34;&gt;ThinkPHP中级
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

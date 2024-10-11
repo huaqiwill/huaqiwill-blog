@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PHP on 华琪威尔的博客</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/php/</link>
+        <description>Recent content in PHP on 华琪威尔的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>huaqiwill</copyright>
+        <lastBuildDate>Tue, 03 Sep 2024 22:16:31 +0800</lastBuildDate><atom:link href="https://huaqiwill.github.io/huaqiwill-blog/categories/php/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PHP编程基础</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/php01/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/php01/</guid>
+        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/p/php01/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post PHP编程基础" /&gt;&lt;h1 id=&#34;php简介&#34;&gt;PHP简介
+&lt;/h1&gt;&lt;p&gt;PHP官网：https://www.php.net/&lt;/p&gt;
+&lt;p&gt;目前最新版：8.3&lt;/p&gt;
+&lt;h1 id=&#34;php安装和配置&#34;&gt;PHP安装和配置
+&lt;/h1&gt;&lt;h2 id=&#34;windows&#34;&gt;Windows
+&lt;/h2&gt;&lt;p&gt;修改文章内容&lt;/p&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux
+&lt;/h2&gt;&lt;p&gt;参考：https://blog.csdn.net/belen_xue/article/details/79418744&lt;/p&gt;
+&lt;p&gt;yum安装检查：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yum list installed | grep php
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;运行时配置&#34;&gt;运行时配置
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;php&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;/body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;/html&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h1 id=&#34;php语法基础&#34;&gt;PHP语法基础
+&lt;/h1&gt;&lt;h2 id=&#34;php变量和常量&#34;&gt;PHP变量和常量
+&lt;/h2&gt;&lt;h2 id=&#34;php数据类型&#34;&gt;PHP数据类型
+&lt;/h2&gt;&lt;h2 id=&#34;php运算符&#34;&gt;PHP运算符
+&lt;/h2&gt;&lt;h2 id=&#34;php字符串&#34;&gt;PHP字符串
+&lt;/h2&gt;&lt;h2 id=&#34;php数组&#34;&gt;PHP数组
+&lt;/h2&gt;&lt;h2 id=&#34;php超全局变量&#34;&gt;PHP超全局变量
+&lt;/h2&gt;&lt;p&gt;这些超全局变量是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.globals.html&#34; &gt;$GLOBALS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.server.html&#34; &gt;$_SERVER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.get.html&#34; &gt;$_GET&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.post.html&#34; &gt;$_POST&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.files.html&#34; &gt;$_FILES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.cookies.html&#34; &gt;$_COOKIE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.session.html&#34; &gt;$_SESSION&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.request.html&#34; &gt;$_REQUEST&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/reserved.variables.environment.html&#34; &gt;$_ENV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;php魔术常量&#34;&gt;PHP魔术常量
+&lt;/h2&gt;&lt;h2 id=&#34;php函数&#34;&gt;PHP函数
+&lt;/h2&gt;&lt;h2 id=&#34;php命名空间&#34;&gt;PHP命名空间
+&lt;/h2&gt;&lt;h2 id=&#34;php面向对象&#34;&gt;PHP面向对象
+&lt;/h2&gt;&lt;h2 id=&#34;php生成器&#34;&gt;PHP生成器
+&lt;/h2&gt;&lt;h2 id=&#34;php测验&#34;&gt;PHP测验
+&lt;/h2&gt;&lt;h2 id=&#34;php表单&#34;&gt;PHP表单
+&lt;/h2&gt;&lt;h2 id=&#34;php-cookie和session&#34;&gt;PHP Cookie和Session
+&lt;/h2&gt;&lt;h2 id=&#34;php错误处理&#34;&gt;PHP错误处理
+&lt;/h2&gt;&lt;h2 id=&#34;php异常处理&#34;&gt;PHP异常处理
+&lt;/h2&gt;&lt;h2 id=&#34;php正则表达式&#34;&gt;PHP正则表达式
+&lt;/h2&gt;&lt;h2 id=&#34;php文件和目录&#34;&gt;PHP文件和目录
+&lt;/h2&gt;&lt;h3 id=&#34;文件系统&#34;&gt;文件系统
+&lt;/h3&gt;&lt;h3 id=&#34;目录&#34;&gt;目录
+&lt;/h3&gt;&lt;h3 id=&#34;direct-io&#34;&gt;Direct IO
+&lt;/h3&gt;&lt;h2 id=&#34;php文件系统安全&#34;&gt;PHP文件系统安全
+&lt;/h2&gt;&lt;h1 id=&#34;php图像处理&#34;&gt;PHP图像处理
+&lt;/h1&gt;&lt;h1 id=&#34;php线程&#34;&gt;PHP线程
+&lt;/h1&gt;&lt;h1 id=&#34;php进程控制&#34;&gt;PHP进程控制
+&lt;/h1&gt;&lt;h2 id=&#34;系统进程执行&#34;&gt;系统进程执行
+&lt;/h2&gt;&lt;h2 id=&#34;eio&#34;&gt;Eio
+&lt;/h2&gt;&lt;h1 id=&#34;php加密&#34;&gt;PHP加密
+&lt;/h1&gt;&lt;h2 id=&#34;crack&#34;&gt;Crack
+&lt;/h2&gt;&lt;h2 id=&#34;hash&#34;&gt;Hash
+&lt;/h2&gt;&lt;h2 id=&#34;csprng&#34;&gt;CSPRNG
+&lt;/h2&gt;&lt;h2 id=&#34;openssl&#34;&gt;OpenSSL
+&lt;/h2&gt;&lt;h2 id=&#34;密码散列算法&#34;&gt;密码散列算法
+&lt;/h2&gt;&lt;h1 id=&#34;php日期和时间&#34;&gt;PHP日期和时间
+&lt;/h1&gt;&lt;h2 id=&#34;日历&#34;&gt;日历
+&lt;/h2&gt;&lt;h2 id=&#34;hrtime&#34;&gt;HRTime
+&lt;/h2&gt;&lt;h1 id=&#34;php测试&#34;&gt;PHP测试
+&lt;/h1&gt;&lt;h1 id=&#34;php-xml&#34;&gt;PHP XML
+&lt;/h1&gt;&lt;h2 id=&#34;dom&#34;&gt;DOM
+&lt;/h2&gt;&lt;h2 id=&#34;libxml&#34;&gt;LibXML
+&lt;/h2&gt;&lt;h2 id=&#34;sdo&#34;&gt;SDO
+&lt;/h2&gt;&lt;h1 id=&#34;php邮件&#34;&gt;PHP邮件
+&lt;/h1&gt;&lt;h2 id=&#34;mail&#34;&gt;Mail
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mail.html&#34; &gt;mail()&lt;/a&gt; 函数可以让你发送邮件。&lt;/p&gt;
+&lt;p&gt;配置&lt;/p&gt;
+&lt;p&gt;Table of Contents&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.ezmlm-hash.html&#34; &gt;ezmlm_hash&lt;/a&gt; — 计算 EZMLM 所需的散列值&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mail.html&#34; &gt;mail&lt;/a&gt; — 发送邮件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mailparse&#34;&gt;Mailparse
+&lt;/h2&gt;&lt;p&gt;Mailparse是解析和处理电子邮件的扩展。它可以处理»RFC 822和»RFC 2045（MIME）兼容的消息。&lt;/p&gt;
+&lt;p&gt;Mailparse是基于流的，这意味着它不在内存中保存处理的文件的副本，因此在处理大型消息时非常节省资源。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：&lt;/p&gt;
+&lt;p&gt;Mailparse需要mbstring扩展，并且必须在Mailparse之前加载mbstring&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Table of Contents&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-determine-best-xfer-encoding.html&#34; &gt;mailparse_determine_best_xfer_encoding&lt;/a&gt; — Gets the best way of encoding&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-create.html&#34; &gt;mailparse_msg_create&lt;/a&gt; — Create a mime mail resource&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-extract-part-file.html&#34; &gt;mailparse_msg_extract_part_file&lt;/a&gt; — Extracts/decodes a message section&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-extract-part.html&#34; &gt;mailparse_msg_extract_part&lt;/a&gt; — Extracts/decodes a message section&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-extract-whole-part-file.html&#34; &gt;mailparse_msg_extract_whole_part_file&lt;/a&gt; — Extracts a message section including headers without decoding the transfer encoding&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-free.html&#34; &gt;mailparse_msg_free&lt;/a&gt; — Frees a MIME resource&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-get-part-data.html&#34; &gt;mailparse_msg_get_part_data&lt;/a&gt; — Returns an associative array of info about the message&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-get-part.html&#34; &gt;mailparse_msg_get_part&lt;/a&gt; — Returns a handle on a given section in a mimemessage&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-get-structure.html&#34; &gt;mailparse_msg_get_structure&lt;/a&gt; — Returns an array of mime section names in the supplied message&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-parse-file.html&#34; &gt;mailparse_msg_parse_file&lt;/a&gt; — Parses a file&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-msg-parse.html&#34; &gt;mailparse_msg_parse&lt;/a&gt; — Incrementally parse data into buffer&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-rfc822-parse-addresses.html&#34; &gt;mailparse_rfc822_parse_addresses&lt;/a&gt; — Parse RFC 822 compliant addresses&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-stream-encode.html&#34; &gt;mailparse_stream_encode&lt;/a&gt; — Streams data from source file pointer, apply encoding and write to destfp&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;mk:@MSITStore:D:%5c%e7%bc%96%e7%a8%8b%5c%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80%5cPHP%5cphp7.3.8.chm::/res/function.mailparse-uudecode-all.html&#34; &gt;mailparse_uudecode_all&lt;/a&gt; — Scans the data from fp and extract each embedded uuencoded file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;php数据库&#34;&gt;PHP数据库
+&lt;/h1&gt;&lt;h2 id=&#34;dba&#34;&gt;DBA
+&lt;/h2&gt;&lt;h2 id=&#34;dbx&#34;&gt;DBX
+&lt;/h2&gt;&lt;h2 id=&#34;odbc&#34;&gt;ODBC
+&lt;/h2&gt;&lt;h2 id=&#34;pdo&#34;&gt;PDO
+&lt;/h2&gt;&lt;h2 id=&#34;mysql&#34;&gt;MySQL
+&lt;/h2&gt;&lt;h2 id=&#34;sqlite3&#34;&gt;SQLite3
+&lt;/h2&gt;&lt;h2 id=&#34;mongodb&#34;&gt;MongoDB
+&lt;/h2&gt;&lt;h1 id=&#34;php数据库安全&#34;&gt;PHP数据库安全
+&lt;/h1&gt;&lt;h1 id=&#34;php文件上传&#34;&gt;PHP文件上传
+&lt;/h1&gt;&lt;h1 id=&#34;php安全模式&#34;&gt;PHP安全模式
+&lt;/h1&gt;&lt;h1 id=&#34;php垃圾回收机制&#34;&gt;PHP垃圾回收机制
+&lt;/h1&gt;&lt;h1 id=&#34;php内存管理&#34;&gt;PHP内存管理
+&lt;/h1&gt;&lt;h1 id=&#34;php文本处理&#34;&gt;PHP文本处理
+&lt;/h1&gt;&lt;h2 id=&#34;bbcode&#34;&gt;BBCode
+&lt;/h2&gt;&lt;h2 id=&#34;common-mark&#34;&gt;Common Mark
+&lt;/h2&gt;&lt;h2 id=&#34;parle&#34;&gt;Parle
+&lt;/h2&gt;&lt;h2 id=&#34;posix-regex&#34;&gt;POSIX Regex
+&lt;/h2&gt;&lt;h2 id=&#34;ssdeep&#34;&gt;SSdeep
+&lt;/h2&gt;&lt;h2 id=&#34;字符串&#34;&gt;字符串
+&lt;/h2&gt;&lt;h1 id=&#34;php-web服务&#34;&gt;PHP Web服务
+&lt;/h1&gt;&lt;h2 id=&#34;授权和认证qauth&#34;&gt;授权和认证QAuth
+&lt;/h2&gt;&lt;h2 id=&#34;sca&#34;&gt;SCA
+&lt;/h2&gt;&lt;h2 id=&#34;soap&#34;&gt;SOAP
+&lt;/h2&gt;&lt;h2 id=&#34;yar&#34;&gt;Yar
+&lt;/h2&gt;&lt;h2 id=&#34;xml-rpc&#34;&gt;XML-RPC
+&lt;/h2&gt;&lt;h1 id=&#34;php-windows&#34;&gt;PHP Windows
+&lt;/h1&gt;&lt;h2 id=&#34;com&#34;&gt;COM
+&lt;/h2&gt;&lt;h2 id=&#34;进程-win32ps&#34;&gt;进程 Win32Ps
+&lt;/h2&gt;&lt;h2 id=&#34;服务-win32service&#34;&gt;服务 Win32Service
+&lt;/h2&gt;&lt;h1 id=&#34;php服务器&#34;&gt;PHP服务器
+&lt;/h1&gt;&lt;p&gt;PHP内置服务器运行&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;php -S localhost:8000
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;apache&#34;&gt;Apache
+&lt;/h2&gt;&lt;h2 id=&#34;fastcgi&#34;&gt;FastCGI
+&lt;/h2&gt;&lt;h2 id=&#34;iis&#34;&gt;IIS
+&lt;/h2&gt;&lt;h2 id=&#34;nsapi&#34;&gt;NSAPI
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>PHP图像处理</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/php02/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/php02/</guid>
+        <description>&lt;h1 id=&#34;php图像处理&#34;&gt;PHP图像处理
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>PHP文件处理</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/php03/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/php03/</guid>
+        <description>&lt;h1 id=&#34;php文件处理&#34;&gt;PHP文件处理
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>ThinkPHP基础</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp01/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp01/</guid>
+        <description>&lt;h1 id=&#34;thinkphp基础&#34;&gt;ThinkPHP基础
+&lt;/h1&gt;</description>
+        </item>
+        <item>
+        <title>ThinkPHP中级</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp02/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/thinkphp02/</guid>
+        <description>&lt;h1 id=&#34;thinkphp中级&#34;&gt;ThinkPHP中级
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
