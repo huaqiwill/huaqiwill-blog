@@ -1,9 +1,9 @@
-baseurl: https://huaqiwill.github.io/test3
+baseurl: https://huaqiwill.github.io/huaqiwill-blog
 languageCode: zh-cn
 theme: hugo-theme-stack 
 paginate: 3
-title: 彭存福的个人博客
-copyright: 彭存福
+title: huaqiwill-blog
+copyright: huaqiwill
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -16,7 +16,7 @@ hasCJKLanguage: true
 languages:
     zh-cn:
         languageName: 中文
-        title: 彭存福的个人博客
+        title: 华琪威尔的博客
         weight: 2
         params:
             description: 演示说明
