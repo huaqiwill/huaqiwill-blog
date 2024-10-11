@@ -1,37 +1,55 @@
-name: Deploy Hugo Site
+# on: push
 
-on:
+# jobs:
+#     hugo-build:
+#         runs-on: ubuntu-latest
+#         steps:
+#         - run: pwd
+#         - run: ls
+    # job1:
+    #     runs-on: ubuntu-latest
+    #     steps:
+    #     - run: pwd
+    #     - run: ls         
+    # job2:
+    #     runs-on: windows-latest
+    #     steps:
+    #     - run: node --versionname: Hugo Build
+
+name: Build and Deploy Hugo Site
+
+on: 
   push:
     branches:
-      - main
+      - main  # 指定要触发的分支
 
+permissions:
+    contents: write      
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
 
-      - name: Setup Hugo (Extension Version)
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          extended: true
+          hugo-version: "latest"
 
-      - name: Build Hugo Site
-        run: hugo --minify --themesDir=themes
+      - name: Build Hugo site
+        run: |
+          hugo -F --cleanDestinationDir  # 生成静态文件
 
-      - name: Cache Hugo and Theme
-        uses: actions/cache@v3
+      - name: List generated files
+        run: ls -al public  # 列出生成的文件，以便调试
+
+      - name: 部署
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: |
-            /usr/local/bin/hugo
-            themes/hugo-theme-stack
-          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+            branch: gh-pages
+            folder: public
