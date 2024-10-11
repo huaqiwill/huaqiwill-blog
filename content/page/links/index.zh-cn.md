@@ -21,6 +21,12 @@ links:
     description: 我是吹牛大师
     website: https://iden9.github.io/actions-test/
     image: https://avatars.githubusercontent.com/u/102173622?v=4
+
+  - title: 代正帮的Github账号
+    description: 我是吹牛大师
+    website: https://github.com/Iden9
+    image: https://avatars.githubusercontent.com/u/102173622?v=4
+
 menu:
     main: 
         weight: -50
