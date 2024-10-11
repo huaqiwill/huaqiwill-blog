@@ -30,8 +30,48 @@ links:
   - title: Exnadio's Blog
     description: 幸福往往是摸得透彻，而敬业的心却常常隐藏
     website: https://oxidane-uni.github.io/
-    image: https://oxidane-uni.github.io/img/avatar1_hu98db67…9afacaa94de45dcf24e0_95532_300x0_resize_box_3.png
-    
+    image: https://oxidane-uni.github.io/img/avatar1_hu98db67a741a59afacaa94de45dcf24e0_95532_300x0_resize_box_3.png
+  
+  - title: 墨纹
+    description: 生活于生活之上
+    website: https://munlelee.github.io/
+    image: https://munlelee.github.io/img/me_hu73bd3bab1486a635d87f3e9873bb4cc5_430264_100x0_resize_q75_box.jpg
+
+  - title: zhixuan's Blog
+    description: 生活于生活之上
+    website: https://zhixuan2333.github.io/
+    image: https://zhixuan2333.github.io/img/avatar_hub9ffec498e0004c8cbcc6cbe5d73158e_130847_300x0_resize_box_3.png
+
+  - title: Echoes from Lsy22
+    description: 生活于生活之上
+    website: https://blog.lsy22.com/
+    image: https://blog.lsy22.com/img/Avatar_hue790f3b65a0393cfd162177647b564eb_11039_300x0_resize_q75_box.jpg
+
+  - title: 锦李本鲤
+    description: 光锥之内，皆为命运。
+    website: https://jinli.io/
+    image: https://jinli.io/img/jinli_hu3f8b48392854856977a6093625c207af_18960_300x0_resize_q75_box.jpeg
+
+  - title: Naive Koala
+    description: 像考拉一样无忧😉
+    website: https://www.xalaok.top/
+    image: https://www.xalaok.top/img/avatar_hu18200934904872302271.png
+
+  - title: Kissablecho
+    description: 身在无间，心在桃源
+    website: https://buasis.eu.org/
+    image: https://assets.buasis.eu.org/me/gravatar.jpg
+
+  - title: 小球飞鱼
+    description: 我们会一起遇见鲸鱼吗？
+    website: https://mantyke.icu/
+    image: https://mantyke.icu/images/logo.png
+
+  - title: Vifly 的博客
+    description: 简单即是美
+    website: https://viflythink.com/
+    image: https://viflythink.com/img/avatar_hu139cde8ab2a45f6f8ca9b1d680d35535_828870_300x0_resize_box_3.png
+
 menu:
     main: 
         weight: -50
