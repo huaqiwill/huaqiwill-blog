@@ -8,12 +8,12 @@
         <language>zh-cn</language>
         <copyright>Huaqiwill</copyright>
         <lastBuildDate>Tue, 03 Sep 2024 22:16:31 +0800</lastBuildDate><atom:link href="https://huaqiwill.github.io/huaqiwill-blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hugo</title>
-        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/</link>
+        <title>Git</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/git/</link>
         <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
         
-        <guid>https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/</guid>
-        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Hugo" /&gt;</description>
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/categories/git/</guid>
+        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/categories/git/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Git" /&gt;</description>
         </item>
         <item>
         <title>PHP</title>
@@ -56,6 +56,14 @@
         <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 微信小程序" /&gt;</description>
         </item>
         <item>
+        <title>Hugo</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/</link>
+        <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/</guid>
+        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/categories/hugo/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Hugo" /&gt;</description>
+        </item>
+        <item>
         <title>Syntax</title>
         <link>https://huaqiwill.github.io/huaqiwill-blog/categories/syntax/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -94,6 +102,14 @@
         
         <guid>https://huaqiwill.github.io/huaqiwill-blog/categories/c%23/</guid>
         <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/categories/c" alt="Featured image of post C#" /&gt;</description>
+        </item>
+        <item>
+        <title>Docker</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/categories/docker/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/categories/docker/</guid>
+        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/categories/docker/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Docker" /&gt;</description>
         </item>
         
     </channel>

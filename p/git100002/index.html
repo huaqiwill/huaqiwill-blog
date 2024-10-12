@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="这里简单介绍PHP图像处理">
-<title>vue1</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="每个 Vue 应用都需要通过实例化 Vue 来实现">
+<title>Git版本管理</title>
 
-<link rel='canonical' href='https://huaqiwill.github.io/huaqiwill-blog/p/vue01/'>
+<link rel='canonical' href='https://huaqiwill.github.io/huaqiwill-blog/p/git100002/'>
 
-<link rel="stylesheet" href="/huaqiwill-blog/scss/style.min.6a12966cb3fff7e6497f23f7c104d1e1cc2606b053ac950f7a38fdf2feb03bf9.css"><meta property='og:title' content="vue1">
-<meta property='og:description' content="这里简单介绍PHP图像处理">
-<meta property='og:url' content='https://huaqiwill.github.io/huaqiwill-blog/p/vue01/'>
+<link rel="stylesheet" href="/huaqiwill-blog/scss/style.min.6a12966cb3fff7e6497f23f7c104d1e1cc2606b053ac950f7a38fdf2feb03bf9.css"><meta property='og:title' content="Git版本管理">
+<meta property='og:description' content="每个 Vue 应用都需要通过实例化 Vue 来实现">
+<meta property='og:url' content='https://huaqiwill.github.io/huaqiwill-blog/p/git100002/'>
 <meta property='og:site_name' content='Huaqiwill&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-09-03T22:16:31&#43;08:00'/><meta property='article:modified_time' content='2024-09-03T22:16:31&#43;08:00'/>
-<meta name="twitter:title" content="vue1">
-<meta name="twitter:description" content="这里简单介绍PHP图像处理">
+<meta name="twitter:title" content="Git版本管理">
+<meta name="twitter:description" content="每个 Vue 应用都需要通过实例化 Vue 来实现">
     <link rel="shortcut icon" href="/favicon.ico" />
 
   
@@ -274,8 +274,8 @@
     
     <header class="article-category">
         
-            <a href="/huaqiwill-blog/categories/vue/" style="background-color: #2a9d8f; color: #fff;">
-                Vue
+            <a href="/huaqiwill-blog/categories/git/" style="background-color: #2a9d8f; color: #fff;">
+                Git
             </a>
         
     </header>
@@ -283,12 +283,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/huaqiwill-blog/p/vue01/">vue1</a>
+            <a href="/huaqiwill-blog/p/git100002/">Git版本管理</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            这里简单介绍PHP图像处理
+            每个 Vue 应用都需要通过实例化 Vue 来实现
         </h3>
         
     </div>
@@ -325,8 +325,68 @@
     <section class="article-content">
     
     
-    <h1 id="php图像处理">PHP图像处理
-</h1>
+    <p>每个 Vue 应用都需要通过实例化 Vue 来实现。</p>
+<p>语法格式如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">vm</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Vue</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// 选项
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">})</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接下来让我们通过实例来看下 Vue 构造器中需要哪些内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;vue_det&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>site : {{site}}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>url : {{url}}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>{{details()}}<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">vm</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Vue</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#vue_det&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">site</span><span class="o">:</span> <span class="s2">&#34;菜鸟教程&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">url</span><span class="o">:</span> <span class="s2">&#34;www.runoob.com&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">alexa</span><span class="o">:</span> <span class="s2">&#34;10000&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">methods</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">details</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span>  <span class="k">this</span><span class="p">.</span><span class="nx">site</span> <span class="o">+</span> <span class="s2">&#34; - 学的不仅是技术，更是梦想！&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -350,12 +410,12 @@
             
                 
 <article class="">
-    <a href="/huaqiwill-blog/p/vue02/">
+    <a href="/huaqiwill-blog/p/git100001/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">vue2</h2>
+            <h2 class="article-title">Git 基础</h2>
         </div>
     </a>
 </article>
