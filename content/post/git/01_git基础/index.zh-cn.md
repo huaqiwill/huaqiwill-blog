@@ -1,10 +1,10 @@
 ---
-title: Vue.js 起步
+title: Git 基础
 description: 每个 Vue 应用都需要通过实例化 Vue 来实现
 date: 2024-09-03T22:16:31+08:00
-slug: vue100001
+slug: git100001
 categories:
-    - Vue
+    - Git
 ---
 
 每个 Vue 应用都需要通过实例化 Vue 来实现。

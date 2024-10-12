@@ -72,6 +72,41 @@ links:
     website: https://viflythink.com/
     image: https://viflythink.com/img/avatar_hu139cde8ab2a45f6f8ca9b1d680d35535_828870_300x0_resize_box_3.png
 
+  - title: 一不留神的博客
+    description: Guangdong University of Technology
+    website: https://skfwe.cn/
+    image: https://skfwe.cn/img/guitar_hudfc0e9ffcf0ce37888f12678c6ceaac6_9721_300x0_resize_box_3.png
+    
+  - title: Ayx 博客
+    description: 「去爱吧，就像不曾受过伤一样」
+    website: https://imayx.top/
+    image: https://imayx.top/img/avatar_hub18032dc79ae8cf20b3e0dd5a7261ede_22728_300x0_resize_q75_box.jpg
+    
+  - title: ABing's Blog
+    description: So you also play Genshin Impact!
+    website: https://leejkee.github.io/
+    image: https://leejkee.github.io/img/head-icon_hu953ebd3cb74452801914bc324157ba6e_89158_300x0_resize_box_3.png
+    
+  - title: 莱特雷
+    description: 
+    website: https://letere-gzj.github.io/
+    image: https://letere-gzj.github.io/uploads/avatar.jpg
+    
+  - title: 第三夏尔 | Third Shire
+    description: 认真生活，积极摸鱼
+    website: https://thirdshire.com/
+    image: https://thirdshire.com/img/blackcat_hu24fb701fef657a2df3efac1346322f47_161889_300x0_resize_q75_box.jpg
+
+  - title: 咕大厨
+    description: 让每一只鸽子都有锅可煲！
+    website: https://blog.gezi.men/
+    image: https://blog.gezi.men/img/avatar_hubf047431ddc50ab53d3c43b041e5175b_4045_300x0_resize_q75_box.jpg
+
+  - title: Yelle🦋
+    description: 希望我在有限的生命里始终奔跑
+    website: https://yelleis.top/
+    image: https://yelleis.top/img/yelle_hu18d7a8711b156c2ebe323e2ee2564f0a_352533_300x0_resize_box_3.png
+
 menu:
     main: 
         weight: -50
