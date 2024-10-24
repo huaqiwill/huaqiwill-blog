@@ -146,12 +146,412 @@
 &lt;/div&gt;</description>
         </item>
         <item>
+        <title>MySQL 系列教程规划（30 天）</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/mysql_1000/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/mysql_1000/</guid>
+        <description>&lt;h1 id=&#34;mysql-系列教程规划30-天&#34;&gt;MySQL 系列教程规划（30 天）
+&lt;/h1&gt;&lt;p&gt;以下是一份详细的 30 天教程规划，每天一篇文章，逐步深入 MySQL 的关键概念与实践：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一周基础知识入门&#34;&gt;&lt;strong&gt;第一周：基础知识入门&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;MySQL简介及安装
+&lt;ul&gt;
+&lt;li&gt;介绍MySQL的用途与安装方法（Windows、Linux、Docker）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据库与表的基础操作
+&lt;ul&gt;
+&lt;li&gt;创建数据库、表，插入、更新和删除数据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据类型详解
+&lt;ul&gt;
+&lt;li&gt;常见数据类型（如INT、VARCHAR、DATE等）及其应用场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MySQL基本查询语句（SELECT）
+&lt;ul&gt;
+&lt;li&gt;过滤、排序、分页等基础查询。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;多表查询与JOIN操作
+&lt;ul&gt;
+&lt;li&gt;INNER JOIN、LEFT JOIN、RIGHT JOIN及其用法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;视图（View）的使用
+&lt;ul&gt;
+&lt;li&gt;创建视图、更新视图，以及适用场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据库设计与范式
+&lt;ul&gt;
+&lt;li&gt;讲解第一、二、三范式及其在实际设计中的应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二周高级查询与优化&#34;&gt;&lt;strong&gt;第二周：高级查询与优化&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;子查询与嵌套查询
+&lt;ul&gt;
+&lt;li&gt;介绍复杂查询及子查询的性能优化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;聚合函数与分组查询
+&lt;ul&gt;
+&lt;li&gt;使用GROUP BY与常见聚合函数（SUM、AVG等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;索引及其作用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建索引与索引优化策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;事务与ACID特性&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;事务的使用及其在多操作场景中的作用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;锁机制与并发控制&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;行锁、表锁及如何处理死锁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;触发器（Trigger）的使用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍触发器的定义与应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;存储过程与函数&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建存储过程及自定义函数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三周管理与性能优化&#34;&gt;&lt;strong&gt;第三周：管理与性能优化&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;用户权限管理&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建用户、设置权限、管理连接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;备份与恢复数据库&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用mysqldump工具与备份策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;日志管理与分析&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;错误日志、查询日志及慢查询日志的配置与分析。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;性能优化策略&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;查询优化、索引优化、硬件优化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;分区表与分库分表策略&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;水平分区与垂直分区的实现及应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;MySQL调优与监控工具&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用EXPLAIN、SHOW等命令及监控工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第四周高级应用与实践&#34;&gt;&lt;strong&gt;第四周：高级应用与实践&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;复制（Replication）与高可用架构&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;主从复制、半同步复制及主主复制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;集群与分布式数据库&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL Cluster与Galera Cluster简介。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;SQL与NoSQL的结合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;在MySQL中存储JSON数据及查询方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;全文检索与优化&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用MySQL的全文检索功能实现快速搜索。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;事务隔离级别与一致性问题&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;四种隔离级别及其适用场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;数据迁移与ETL实践&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;数据迁移工具及ETL流程介绍。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;MySQL与应用程序的结合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Boot、Node.js 等与MySQL的整合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;最后几天项目实战与总结&#34;&gt;&lt;strong&gt;最后几天：项目实战与总结&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;搭建博客系统数据库&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;设计并实现一个博客系统的数据库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;项目部署与云数据库使用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用AWS RDS、阿里云等云数据库服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;总结与下一步学习方向&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;总结教程重点，并推荐深入学习方向（如MariaDB、Percona等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;小提示&#34;&gt;&lt;strong&gt;小提示&lt;/strong&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;每日目标&lt;/strong&gt;：保持文章长度适中，确保实用性，配合代码示例与图表展示。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;互动与推广&lt;/strong&gt;：每天发布后在CSDN分享，并引导读者参与评论和提问，以提高文章的阅读量。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过这份计划，你可以在一个月内完成一套系统的MySQL教程，为初学者和进阶用户提供有价值的参考。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MySQL简介与安装</title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/mysql_1001/</link>
+        <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/mysql_1001/</guid>
+        <description>&lt;h1 id=&#34;mysql-系列教程规划30-天&#34;&gt;MySQL 系列教程规划（30 天）
+&lt;/h1&gt;&lt;p&gt;以下是一份详细的 30 天教程规划，每天一篇文章，逐步深入 MySQL 的关键概念与实践：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一周基础知识入门&#34;&gt;&lt;strong&gt;第一周：基础知识入门&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;MySQL简介及安装
+&lt;ul&gt;
+&lt;li&gt;介绍MySQL的用途与安装方法（Windows、Linux、Docker）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据库与表的基础操作
+&lt;ul&gt;
+&lt;li&gt;创建数据库、表，插入、更新和删除数据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据类型详解
+&lt;ul&gt;
+&lt;li&gt;常见数据类型（如INT、VARCHAR、DATE等）及其应用场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MySQL基本查询语句（SELECT）
+&lt;ul&gt;
+&lt;li&gt;过滤、排序、分页等基础查询。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;多表查询与JOIN操作
+&lt;ul&gt;
+&lt;li&gt;INNER JOIN、LEFT JOIN、RIGHT JOIN及其用法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;视图（View）的使用
+&lt;ul&gt;
+&lt;li&gt;创建视图、更新视图，以及适用场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据库设计与范式
+&lt;ul&gt;
+&lt;li&gt;讲解第一、二、三范式及其在实际设计中的应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二周高级查询与优化&#34;&gt;&lt;strong&gt;第二周：高级查询与优化&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;子查询与嵌套查询
+&lt;ul&gt;
+&lt;li&gt;介绍复杂查询及子查询的性能优化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;聚合函数与分组查询
+&lt;ul&gt;
+&lt;li&gt;使用GROUP BY与常见聚合函数（SUM、AVG等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;索引及其作用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建索引与索引优化策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;事务与ACID特性&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;事务的使用及其在多操作场景中的作用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;锁机制与并发控制&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;行锁、表锁及如何处理死锁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;触发器（Trigger）的使用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍触发器的定义与应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;存储过程与函数&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建存储过程及自定义函数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三周管理与性能优化&#34;&gt;&lt;strong&gt;第三周：管理与性能优化&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;用户权限管理&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;创建用户、设置权限、管理连接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;备份与恢复数据库&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用mysqldump工具与备份策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;日志管理与分析&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;错误日志、查询日志及慢查询日志的配置与分析。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;性能优化策略&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;查询优化、索引优化、硬件优化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;分区表与分库分表策略&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;水平分区与垂直分区的实现及应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;MySQL调优与监控工具&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用EXPLAIN、SHOW等命令及监控工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第四周高级应用与实践&#34;&gt;&lt;strong&gt;第四周：高级应用与实践&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;复制（Replication）与高可用架构&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;主从复制、半同步复制及主主复制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;集群与分布式数据库&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL Cluster与Galera Cluster简介。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;SQL与NoSQL的结合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;在MySQL中存储JSON数据及查询方法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;全文检索与优化&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用MySQL的全文检索功能实现快速搜索。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;事务隔离级别与一致性问题&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;四种隔离级别及其适用场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;数据迁移与ETL实践&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;数据迁移工具及ETL流程介绍。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;MySQL与应用程序的结合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Boot、Node.js 等与MySQL的整合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;最后几天项目实战与总结&#34;&gt;&lt;strong&gt;最后几天：项目实战与总结&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;搭建博客系统数据库&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;设计并实现一个博客系统的数据库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;项目部署与云数据库使用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;使用AWS RDS、阿里云等云数据库服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;总结与下一步学习方向&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;总结教程重点，并推荐深入学习方向（如MariaDB、Percona等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;小提示&#34;&gt;&lt;strong&gt;小提示&lt;/strong&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;每日目标&lt;/strong&gt;：保持文章长度适中，确保实用性，配合代码示例与图表展示。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;互动与推广&lt;/strong&gt;：每天发布后在CSDN分享，并引导读者参与评论和提问，以提高文章的阅读量。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过这份计划，你可以在一个月内完成一套系统的MySQL教程，为初学者和进阶用户提供有价值的参考。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>PHP编程基础</title>
         <link>https://huaqiwill.github.io/huaqiwill-blog/p/php01/</link>
         <pubDate>Tue, 03 Sep 2024 22:16:31 +0800</pubDate>
         
         <guid>https://huaqiwill.github.io/huaqiwill-blog/p/php01/</guid>
-        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/p/php01/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post PHP编程基础" /&gt;&lt;h1 id=&#34;php简介&#34;&gt;PHP简介
+        <description>&lt;img src="https://huaqiwill.github.io/huaqiwill-blog/p/php01/images/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post PHP编程基础" /&gt;&lt;h1 id=&#34;php简介&#34;&gt;PHP简介
 &lt;/h1&gt;&lt;p&gt;PHP官网：https://www.php.net/&lt;/p&gt;
 &lt;p&gt;目前最新版：8.3&lt;/p&gt;
 &lt;h1 id=&#34;php安装和配置&#34;&gt;PHP安装和配置
@@ -913,6 +1313,14 @@ $$&lt;/p&gt;</description>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://huaqiwill.github.io/huaqiwill-blog/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://huaqiwill.github.io/huaqiwill-blog/p/</guid>
+        <description></description>
         </item>
         
     </channel>
