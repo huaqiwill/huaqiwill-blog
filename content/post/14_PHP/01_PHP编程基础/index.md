@@ -3,7 +3,7 @@ title: PHP编程基础
 description: 这里简单介绍PHP的编程基础，并且实战开发一个隔个人博客网站
 date: 2024-09-03T22:16:31+08:00
 slug: php01
-image: helena-hertz-wWZzXlDpMog-unsplash.jpg
+image: images/helena-hertz-wWZzXlDpMog-unsplash.jpg
 categories:
     - PHP
 ---
